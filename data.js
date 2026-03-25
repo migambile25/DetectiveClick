@@ -169,73 +169,73 @@ export const companyData = {
         {
             name: 'Eng. Ibrahim Zuberi',
             role: 'Director, IT consultant Manager',
-            image: '/files/TEAM/01.png',
+            image: '/src/assets/team/01.png',
             tier: 1
         },
         {
             name: 'Capt. Ibrahim Mr. Zuberi',
             role: 'Investor & Strategic Advisor',
-            image: '/files/TEAM/08.png',
+            image: '/src/assets/team/08.png',
             tier: 1
         },
         {
             name: 'Eng. Ibrahim Mvumbaguh',
             role: 'Managing partner & Senior IT Consultant',
-            image: '/files/TEAM/13.png',
+            image: '/src/assets/team/13.png',
             tier: 1
         },
         {
             name: 'Khadija Msawa',
             role: 'Senior Financial Manager, HRM',
-            image: '/files/TEAM/03.png',
+            image: '/src/assets/team/03.png',
             tier: 2
         },
         {
             name: 'Adam Chief',
             role: 'Legal Advisor',
-            image: '/files/TEAM/07.png',
+            image: '/src/assets/team/07.png',
             tier: 2
         },
         {
             name: 'Imelder Musoke',
             role: 'Accountant',
-            image: '/files/TEAM/12.png',
+            image: '/src/assets/team/12.png',
             tier: 2
         },
         {
             name: 'Muhidin Issa',
             role: 'Project Manager',
-            image: '/files/TEAM/05.png',
+            image: '/src/assets/team/05.png',
             tier: 2
         },
         {
             name: 'Geofrey H. Kunambi',
             role: 'Training & project management',
-            image: '/files/TEAM/11.png',
+            image: '/src/assets/team/11.png',
             tier: 2
         },
         {
             name: 'Sr. Paul Chamlungu',
             role: 'System Developer',
-            image: '/files/TEAM/02.png',
+            image: '/src/assets/team/02.png',
             tier: 3
         },
         {
             name: 'Emmanuel Baluah',
             role: 'Sound Engineer',
-            image: '/files/TEAM/09.png',
+            image: '/src/assets/team/09.png',
             tier: 3
         },
         {
             name: 'David Marco',
             role: 'Graphic Designer',
-            image: '/files/TEAM/06.png',
+            image: '/src/assets/team/06.png',
             tier: 3
         },
         {
             name: 'Fantatoure Zubery',
             role: 'Marketing Executive',
-            image: '/files/TEAM/04.png',
+            image: '/src/assets/team/04.png',
             tier: 3
         }
     ],
