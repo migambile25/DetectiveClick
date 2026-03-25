@@ -51,6 +51,7 @@
                     <li><a href="#hero">Home</a></li>
                     <li><a href="#services">Solutions</a></li>
                     <li><a href="#portfolio">Our Impact</a></li>
+                    <li><a href="#team">Our Team</a></li>
                     <li><a href="#about">About</a></li>
                 </ul>
                 <div style="display: flex; gap: 16px; align-items: center;">
@@ -107,33 +108,8 @@
                     <span class="sector-tag">Our Expertise</span>
                     <h2>Engineered for <span class="gradient-text">Excellence.</span></h2>
                 </div>
-                <div class="portfolio-grid">
-                    <div class="portfolio-card col-4">
-                        <h3>ICT Consultancy & Auditing</h3>
-                        <p>Advisory, IT audits, and strategy alignment for your business. We help you navigate the
-                            complex digital landscape with certified Tanzanian expertise.</p>
-                    </div>
-                    <div class="portfolio-card col-2">
-                        <h3>CCTV Installations</h3>
-                        <p>High-definition surveillance systems tailored for zones of all sizes.</p>
-                    </div>
-                    <div class="portfolio-card col-3">
-                        <h3>Access Control & Security</h3>
-                        <p>Biometric and secure entry systems for modern peace of mind and strict facility regulation.
-                        </p>
-                    </div>
-                    <div class="portfolio-card col-3">
-                        <h3>Networking & Connectivity</h3>
-                        <p>LAN/WAN, Wi-Fi optimization, and professional fiber backbone provision.</p>
-                    </div>
-                    <div class="portfolio-card col-2" style="background: var(--primary); color: #FFF;">
-                        <h3>Managed IT Services</h3>
-                        <p style="color: rgba(255,255,255,0.8)">Dedicated AMC support for continuous uptime.</p>
-                    </div>
-                    <div class="portfolio-card col-4">
-                        <h3>Branding & Digital</h3>
-                        <p>Website development and comprehensive brand strategy to win the digital market.</p>
-                    </div>
+                <div class="portfolio-grid" id="services-grid">
+                    <!-- Services will be injected here -->
                 </div>
             </div>
         </section>
@@ -145,45 +121,35 @@
                     <span class="sector-tag">Our Impact</span>
                     <h2>Proven on <span class="gradient-text">Record.</span></h2>
                 </div>
-                <div class="portfolio-grid">
-                    <div class="portfolio-card col-3">
-                        <span class="sector-tag">Legal Sector</span>
-                        <h3>High Court of Tanzania</h3>
-                        <p>Shinyinga zone: Complete Access Control & CCTV Installations + Ongoing IT AMC for operational
-                            security.</p>
-                    </div>
-                    <div class="portfolio-card col-3">
-                        <span class="sector-tag">Governmental</span>
-                        <h3>DSSP Biometrics</h3>
-                        <p>Registration systems for 25+ institutions including TRA, BOT, TPA, TBS, and TPDC. Branding &
-                            Consultancy support.</p>
-                    </div>
-                    <div class="portfolio-card col-3">
-                        <span class="sector-tag">Automotive</span>
-                        <h3>Tata Motors</h3>
-                        <p>Site-wide surveillance installation and dedicated preventive maintenance under professional
-                            AMC.</p>
-                    </div>
-                    <div class="portfolio-card col-3">
-                        <span class="sector-tag">Logistics</span>
-                        <h3>Laiks Cargo</h3>
-                        <p>Infrastructure deployment, computer supply, and full digital marketing strategy.</p>
-                    </div>
-                    <div class="portfolio-card col-2">
-                        <span class="sector-tag">Architecture</span>
-                        <h3>Ggaf Consulting</h3>
-                        <p>Full digital transformation and legal system development.</p>
-                    </div>
-                    <div class="portfolio-card col-2">
-                        <span class="sector-tag">Media</span>
-                        <h3>Gold FM Kahama</h3>
-                        <p>Full ICT infrastructure, internet provision, and office branding.</p>
-                    </div>
-                    <div class="portfolio-card col-2">
-                        <span class="sector-tag">Medical</span>
-                        <h3>Mazil Pharmacy</h3>
-                        <p>Computer supplies and dedicated ICT maintenance.</p>
-                    </div>
+                <div class="portfolio-grid" id="projects-grid">
+                    <!-- Projects will be injected here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Industries Section -->
+        <section id="industries" style="padding: 100px 0; background: var(--bg-soft);">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: 60px;">
+                    <span class="sector-tag">Sectors We Serve</span>
+                    <h2>Tailored for Your <span class="gradient-text">Industry.</span></h2>
+                </div>
+                <div id="industries-grid" style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;">
+                    <!-- Industries will be injected here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" style="padding: 120px 0;">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: 80px;">
+                    <span class="sector-tag">Our Team</span>
+                    <h2>Powered by <span class="gradient-text">Experts.</span></h2>
+                    <p>Meet the skilled professionals behind D-Click Solutions.</p>
+                </div>
+                <div class="team-grid" id="team-grid">
+                    <!-- Team members will be injected here -->
                 </div>
             </div>
         </section>
@@ -191,16 +157,12 @@
         <!-- Testimonial Section -->
         <section style="padding: 100px 0; background: var(--bg-soft);">
             <div class="container">
-                <div class="testimonial-scroller">
+                <div class="testimonial-scroller" id="testimonial-scroller">
+                    <!-- Testimonials will be injected here -->
                     <div class="testimonial-card">
                         <p>"Their success stories drive our commitment to delivering exceptional ICT solutions across
                             every sector in Tanzania."</p>
                         <div style="margin-top: 24px; font-weight: 800;">- Our Leadership Core</div>
-                    </div>
-                    <div class="testimonial-card">
-                        <p>"Responsive, professional, and deeply technical. D-Click has transformed our security
-                            infrastructure."</p>
-                        <div style="margin-top: 24px; font-weight: 800;">- Infrastructure Partner</div>
                     </div>
                 </div>
             </div>
@@ -269,6 +231,20 @@
                             </div>
                         </div>
                     </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section id="partners" style="padding: 100px 0; background: var(--bg-soft);">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: 60px;">
+                    <span class="sector-tag">Strategic Collaboration</span>
+                    <h2>Our Trusted <span class="gradient-text">Partners.</span></h2>
+                </div>
+                <div id="partners-grid"
+                    style="display: flex; flex-wrap: wrap; gap: 32px; justify-content: center; align-items: center;">
+                    <!-- Partners will be injected here -->
                 </div>
             </div>
         </section>
